@@ -11,7 +11,12 @@ header
     justify-content: space-between;
     align-items: center;
     padding: 0px 30px 0 30px;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1000;
+    background: #fff;
 }
 
 .sfirst
@@ -69,7 +74,7 @@ header
 }
 
 .notificationbtn i {
-    font-size: 1.5rem;   /* Increase icon size */
+    font-size: 1.5rem;
 }
 
 
@@ -102,20 +107,18 @@ header
 
 main
 {
-    display: flex;
+    display: block;
 }
 
 td
 {
     height: 70px;
     width: 60px;
-    /* border: 1px solid rgb(220, 220, 220); */
     display: flex;
    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
-    margin-top: 10px;
     gap: 5px;
     
 }
@@ -139,7 +142,7 @@ td:hover
 
 .fa-house, .fa-clapperboard, .fa-bell, .fa-user-circle, .fa-download
 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: rgb(100, 100, 100);
 }
 
@@ -166,6 +169,8 @@ tr
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    font-size: 15px;
+    
     
 
 }
@@ -213,4 +218,86 @@ tr
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: fixed;
+    top: 55px; 
+    left: 90px; 
+    width: calc(100vw - 90px);
+    background: #fff;
+    z-index: 950;
+    padding: 10px 0;
+}
+
+.leftlist {
+    position: fixed;
+    top: 90px;
+    left: 0;
+    height: calc(100vh - 90px);
+    width: 90px;
+    background: #fff;
+    z-index: 900;
+    overflow-y: auto;
+}
+
+.middlepart {
+    margin-left: 90px; /* same as .leftlist width */
+    margin-top: 150px; /* same as header height */
+    width: calc(100vw - 90px);
+}
+
+.videosection
+{
+    /* margin-top: 100px; */
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: calc(100vh - 90px - 60px);
+    overflow-y: auto;
+    padding-bottom: 30px;
+}
+
+.thumbnail-image
+{
+    border-radius: 10px;
+    height: 13rem;
+    width: 22rem;
+}
+
+.profileTitle
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.nameticklogo
+{
+    /* background-color: rgb(240, 240, 240); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0px;
+    height: 30px;
+    width: fit-content;
+    margin-left: 30px;
+    gap: ;
+}
+
+@media (max-width: 700px) {
+    .leftlist {
+        width: 60px;
+    }
+    .middlepart {
+        margin-left: 60px;
+        width: calc(100vw - 60px);
+    }
+    .upperheadlist {
+        left: 60px;
+        width: calc(100vw - 60px);
+    }
 }
