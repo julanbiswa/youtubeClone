@@ -115,13 +115,14 @@ td
     height: 70px;
     width: 60px;
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
     gap: 5px;
     
 }
+
 table
 {
     margin-top: -10px;
@@ -285,7 +286,7 @@ tr
     height: 30px;
     width: fit-content;
     margin-left: 30px;
-    gap: ;
+    gap: 10px;
 }
 
 @media (max-width: 700px) {
