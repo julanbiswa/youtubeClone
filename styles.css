@@ -99,12 +99,118 @@ header
     align-items: center;
 }
 
-.togglebtn
-{
-    font-size: 1.5rem;
-}
 
 main
 {
     display: flex;
+}
+
+td
+{
+    height: 70px;
+    width: 60px;
+    /* border: 1px solid rgb(220, 220, 220); */
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    gap: 5px;
+    
+}
+table
+{
+    margin-top: -10px;
+}
+
+td:hover
+{
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.sidetxt
+{
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+
+.fa-house, .fa-clapperboard, .fa-bell, .fa-user-circle, .fa-download
+{
+    font-size: 1.2rem;
+    color: rgb(100, 100, 100);
+}
+
+.fa-bars
+{
+    font-size: 1.3rem;
+}
+
+tr
+{
+   margin: 20px;
+}
+
+.uppertxtlist
+{
+    width: fit-content;
+    padding: 12px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    height: 30px;
+    margin: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+
+}
+.morelist
+{
+    width: fit-content;
+    padding: 12px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    height: 30px;
+    margin: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: large; 
+
+}
+.fisrtlist
+{
+    width: fit-content;
+    padding: 12px;
+    background-color: black;
+    border-radius: 8px;
+    height: 30px;
+    margin: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    
+
+}
+
+.uppertxtlist:hover, .morelist:hover
+{
+    background-color: rgb(215, 215, 215);
+    cursor: pointer;
+}
+
+.upperheadlist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
