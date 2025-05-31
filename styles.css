@@ -4,3 +4,107 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0 30px;
+
+}
+
+.sfirst
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.ssecond
+{
+    display: flex;
+    gap: 20px;
+
+}
+.sthird
+{
+    display: flex;
+    gap: 15px;
+    margin-left: -120px;
+}
+
+.voicelogo
+{
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 50%;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    
+}
+
+.createbtn
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    width: fit-content;
+    padding: 20px;
+}
+
+.notificationbtn
+{
+    display: flex;
+    align-items: center;
+}
+
+.notificationbtn i {
+    font-size: 1.5rem;   /* Increase icon size */
+}
+
+
+.searchinput
+{
+    height: 40px;
+    border:1px solid rgb(220, 220, 220);
+    width: 550px;
+    border-radius: 50px 0 0 50px;
+    padding: 20px;
+}
+
+.searchbtn
+{
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 0px 50px 50px 0px;
+    height: 41px;
+    width: 50px;
+    background-color: none;
+    margin: -5px;
+
+}
+
+.profile
+{
+    display: flex;
+    align-items: center;
+}
+
+.togglebtn
+{
+    font-size: 1.5rem;
+}
+
+main
+{
+    display: flex;
+}
