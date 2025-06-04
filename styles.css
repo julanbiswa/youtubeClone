@@ -41,6 +41,19 @@ header
     margin-left: -120px;
 }
 
+.togglebtn
+{
+    padding: 10px;
+    margin-left: -5px;
+
+
+}
+.togglebtn:hover
+{
+    background-color: rgb(240, 240, 240);
+    border-radius: 50%;
+}
+
 .voicelogo
 {
     border: 1px solid rgb(220, 220, 220);
@@ -51,6 +64,12 @@ header
     align-items: center;
     width: 40px;
     
+}
+
+.voicelogo:hover
+{
+    cursor: pointer;
+    background-color: rgb(210, 210, 210);
 }
 
 .createbtn
@@ -67,14 +86,34 @@ header
     padding: 20px;
 }
 
+.createbtn:hover
+{
+    cursor: pointer;
+    background-color: rgb(210, 210, 210);
+}
+
 .notificationbtn
 {
     display: flex;
     align-items: center;
+    border-radius: 50%;
+    padding: 8px;
 }
+
+.notificationbtn:hover
+{
+    cursor: pointer;
+    background-color: rgb(210, 210, 210);
+
+}   
 
 .notificationbtn i {
     font-size: 1.5rem;
+}
+
+.bodylogo:hover
+{
+    cursor: pointer;
 }
 
 
@@ -98,10 +137,21 @@ header
 
 }
 
+.searchbtn:hover
+{
+    cursor: pointer;
+    background-color: rgb(210, 210, 210);
+}
+
 .profile
 {
     display: flex;
     align-items: center;
+}
+
+.profile:hover
+{
+    cursor: pointer;
 }
 
 
@@ -132,6 +182,7 @@ td:hover
 {
     background-color: rgb(240, 240, 240);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .sidetxt
@@ -278,15 +329,32 @@ tr
 
 .nameticklogo
 {
-    /* background-color: rgb(240, 240, 240); */
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 0px;
     height: 30px;
     width: fit-content;
-    margin-left: 30px;
     gap: 10px;
+    color: rgb(100, 100, 100);
+    margin: -5px 0 0 38px;
+}
+.viewstime
+{
+    color: rgb(100, 100, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: fit-content;
+    margin: -10px 0 0 38px;
+    gap: 10px;
+}
+
+.fa-check
+{
+    background-color: rgb(220, 220, 220);
+    border-radius: 55%;
+    padding: 3px;
 }
 
 @media (max-width: 700px) {
